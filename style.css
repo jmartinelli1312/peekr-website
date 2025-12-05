@@ -9,7 +9,7 @@ body {
 /* HERO */
 .hero {
     text-align: center;
-    padding: 80px 20px;
+    padding: 80px 20px 60px;
 }
 
 .hero-logo {
@@ -18,7 +18,7 @@ body {
 }
 
 .hero-title {
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 700;
     margin: 10px 0;
 }
@@ -26,68 +26,54 @@ body {
 .hero-subtitle {
     font-size: 18px;
     opacity: 0.8;
-    max-width: 400px;
+    max-width: 420px;
     margin: 10px auto 30px;
 }
 
 .appstore-btn img {
     width: 180px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
-.hero-mockup img {
-    width: 270px;
-    margin-top: 40px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 40px rgba(255, 0, 128, 0.4);
-}
-
-/* FEATURES */
-.features {
-    padding: 60px 20px;
+/* ONBOARDING ROW */
+.onboarding-row {
     display: flex;
-    flex-direction: column;
-    gap: 50px;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
 }
 
-.feature img {
+.onboarding-row .on-img {
     width: 280px;
     border-radius: 20px;
+    box-shadow: 0px 0px 35px rgba(255, 0, 128, 0.3);
 }
 
-.feature {
+/* ABOUT */
+.about {
     text-align: center;
-    max-width: 400px;
+    padding: 60px 20px 80px;
+    max-width: 650px;
     margin: auto;
 }
 
-.feature h3 {
-    margin-top: 15px;
-    font-size: 22px;
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
-.feature p {
-    opacity: 0.8;
-    font-size: 16px;
-}
-
-/* GRID */
-.grid {
-    padding: 40px 20px 80px;
-    display: grid;
-    gap: 20px;
-}
-
-.grid img {
-    width: 100%;
-    border-radius: 20px;
+.about p {
+    font-size: 17px;
+    line-height: 1.6;
+    opacity: 0.85;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     padding: 40px 20px;
-    opacity: 0.7;
+    opacity: 0.75;
 }
 
 .footer-logo {
