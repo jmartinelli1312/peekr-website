@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appID": "YOUR_TEAM_ID.com.yourcompany.peekr",
+        "paths": [
+          "/u/*",
+          "/title/*"
+        ]
+      }
+    ]
+  }
+}
