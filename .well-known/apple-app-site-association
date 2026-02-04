@@ -1,10 +1,10 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
-        "appID": "KSQLRUQFXB.com.peekr.app",
+        "appID": "ZK5SM49Y42.com.peekr.app",
         "paths": [
-          "/u/*",
           "/title/*"
         ]
       }
