@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Peekr</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="assets/logo-icon.png" />
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Peekr</title>
+
+  <!-- ========================= -->
+  <!-- OPEN GRAPH (WhatsApp) -->
+  <!-- ========================= -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Peekr" />
+  <meta property="og:title" content="Peekr – Discover what your friends are watching" />
+  <meta property="og:description" content="See what people you trust are watching and discover your next favorite movie or show." />
+  <meta property="og:image" content="https://peekr.app/assets/share-default.jpg" />
+  <meta property="og:url" content="https://peekr.app/" />
+
+  <!-- iOS -->
+  <meta name="apple-itunes-app" content="app-id=TU_APP_ID" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/logo-icon.png" />
+</head>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const titleId = params.get('title');
+
+  if (titleId) {
+    setTimeout(() => {
+      window.location.href = `peekr://title/${titleId}`;
+    }, 600);
+
+    setTimeout(() => {
+      window.location.href = "https://apps.apple.com/app/idTU_APP_ID";
+    }, 1600);
+  }
+</script>
 <body>
 
 <!-- HERO -->
